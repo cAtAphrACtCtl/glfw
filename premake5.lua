@@ -98,16 +98,13 @@ project "GLFW"
 
 	filter "configurations:Debug"
 		runtime "Debug"
-		buildoptions "/MT"
 		symbols "on"
 
 	filter "configurations:Release"
 		runtime "Release"
-		buildoptions "/MT"
 		optimize "on"
 
 	filter "configurations:Dist"
 		runtime "Release"
-		buildoptions "/MT"
 		optimize "on"
         symbols "off"
